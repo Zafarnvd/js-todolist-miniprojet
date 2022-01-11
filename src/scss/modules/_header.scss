@@ -1,0 +1,63 @@
+body{
+    background-image: url(../../../public/img/EMR8AK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: uchen;
+    margin: 0;
+}
+
+.todo-item{
+    background-color: none;
+    color: red;
+    list-style: none;
+}
+
+.part-2{
+    button{
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.completed{
+    background-color: white;
+    height: 20px;
+    width: 40px;
+}
+
+.edit{
+    background-color: indianred;
+    height: 20px;
+    width: 40px;
+}
+
+.pbl{
+    background-color: red;
+    height: 20px;
+    width: 40px;
+}
+
+.del{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .5s;
+}
+
+.todo-list{
+    display: flex;
+    justify-content: center;
+    li{
+        margin-right: 5px;
+        width: 100px;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+    }
+}
